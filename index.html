@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Agrinho: EcoIrriga Paraná</title>
+    <style>
+        body { 
+            background-color: #f1f8f5; 
+            color: #2c3e50; 
+            font-family: sans-serif; 
+            margin: 0;
+            padding: 0; 
+        }
+        .topo-site {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1625246333195-78d9c38ad451?q=80&w=1200');
+            background-size: cover; 
+            background-position: center; 
+            color: white; 
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .conteudo { 
+            max-width: 800px; 
+            margin: 30px auto; 
+            padding: 20px; 
+            background: white; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+        }
+        .botao-projeto {
+            background-color: #ff9800; 
+            color: white; 
+            border: none; 
+            padding: 12px 30px; 
+            font-size: 16px;
+            font-weight: bold; 
+            border-radius: 30px; 
+            cursor: pointer; 
+            transition: transform 0.3s ease, background-color 0.3s ease; 
+            margin-top: 15px;
+        }
+        .botao-projeto:hover { 
+            background-color: #e65100; 
+            transform: scale(1.1) translateY(-3px); 
+        }
+        .info-autor {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="topo-site">
+        <h1>EcoIrriga Paraná</h1>
+        <p>Inovação e preservação no Concurso Agrinho 2026</p>
+    </header>
 
+    <div class="conteudo">
+        <p><strong>Tema:</strong> Tecnologia a Serviço da Natureza • <strong>Ideia:</strong> EcoIrriga Paraná • <strong>Para Alunos do:</strong> 9º Ano</p>
+        
+        <hr>
+
+        <h2>Irrigação Automatizada por Gotejamento</h2>
+        <p>Nosso objeto de estudo é um sistema automatizado que libera água gota a gota direto na raiz das plantas, ativado apenas quando o solo realmente precisa. Essa descrição reflete nosso compromisso em evitar o desperdício de recursos hídricos e aumentar a eficiência da colheita!</p>
+        
+        <button class="botao-projeto" onclick="alert('Obrigado pelo apoio ao projeto!')">Apoiar essa Ideia</button>
+        
+        <p class="info-autor">Autor: Augusto</p>
+    </div>
+</body>
+</html>
